@@ -2,6 +2,10 @@ Geordi
 ======
 Geordi (La Forge) is a small GitHub webhook receiver written in python publishing Puppet modules to the Forge
 
+<div style="float: right">
+    <img alt="Geordi La Forge" src="http://i.imgur.com/f4XoL2o.gif">
+</div>
+
 
 Usage
 -----
@@ -33,3 +37,4 @@ Based on the work done by [@sashasimkin](https://github.com/sashasimkin) (https:
 License
 -------
 GPLv3, see [LICENSE](LICENSE) for details.
+
