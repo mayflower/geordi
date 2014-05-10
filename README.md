@@ -18,6 +18,11 @@ export FORGE_PASS=your-forge-password
 ```
 * run geordi: `python app.py`
 
+### Running in Docker
+
+* Build the Docker image: `docker build --tag geordi .`
+* Run a container: `docker run -p 5000:5000 -e FORGE_USER=user -e FORGE_PASS=pass geordi:latest`
+
 ### Configure GitHub
 Once you start geordi it will bind to 0.0.0.0:5000 and listen for payloads on http://0.0.0.0:5000/github
 
