@@ -1,7 +1,7 @@
 FROM ubuntu:14.04
 MAINTAINER devops@mayflower.de
 
-RUN sed -e 's/archive.ubuntu.com/de.archive.ubuntu.com/' \
+RUN sed -e 's/http:\/\/archive.ubuntu.com\/ubuntu\//mirror:\/\/mirrors.ubuntu.com\/mirrors.txt/' \
         < /etc/apt/sources.list > /etc/apt/sources.list.d/ubuntu.list; \
     rm /etc/apt/sources.list
 
